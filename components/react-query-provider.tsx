@@ -13,7 +13,6 @@ export function ReactQueryProvider(props: { children: React.ReactNode }) {
             refetchOnWindowFocus: false,
             refetchOnReconnect: false,
             retry: false,
-            staleTime: 5 * 60 * 1000,
           },
         },
       }),
